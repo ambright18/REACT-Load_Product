@@ -1,0 +1,40 @@
+.h1{
+    text-align: center;
+}
+
+.loadMoreContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.product{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+.product img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px hsl(0, 0%, 40%);
+}
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.btnContainer button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(212, 100%, 60%);
+    color: whitesmoke;
+    cursor: pointer;
+}
